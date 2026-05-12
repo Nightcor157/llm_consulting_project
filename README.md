@@ -172,18 +172,7 @@ uv run pytest -q
 - публикация задачи через мок `llm_request.delay` при валидном токене;
 - OpenRouter-клиент через `respx` без реального интернета.
 
-## Скриншоты для сдачи
-
-По ТЗ к работе нужно приложить скриншоты:
-
-1. Swagger Auth Service: успешная регистрация.
-2. Swagger Auth Service: успешный логин и получение JWT.
-3. Swagger Auth Service: успешный `/auth/me` с Bearer-токеном.
-4. Telegram: команда `/token <jwt>` и подтверждение сохранения токена.
-5. Telegram: обычный вопрос и ответ LLM.
-6. RabbitMQ Management: очередь Celery, messages/consumers/connections.
-7. Успешный запуск тестов Auth Service.
-8. Успешный запуск тестов Bot Service.
+## Скриншоты с демонстрацией
 
 Сохранённые демонстрационные скриншоты:
 
