@@ -203,12 +203,4 @@ uv run pytest -q
 
 ![RabbitMQ overview](docs/screenshots/04-rabbitmq-overview.jpg)
 
-## Важные архитектурные решения
 
-- `Auth Service` хранит пароль только как bcrypt-хеш.
-- `Auth Service` выпускает JWT с `sub`, `role`, `iat`, `exp`.
-- `Bot Service` не создаёт JWT и не знает пароли пользователей.
-- JWT пользователя привязывается к Telegram `user_id` через Redis-ключ `token:<tg_user_id>`.
-- LLM-запросы не выполняются в Telegram-хэндлере: хэндлер только публикует Celery-задачу.
-- RabbitMQ реально используется как Celery broker.
-- Redis реально используется как Celery backend и как хранилище JWT для Telegram-пользователей.
