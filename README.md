@@ -187,10 +187,21 @@ uv run pytest -q
 
 Сохранённые демонстрационные скриншоты:
 
-- [Swagger register](docs/screenshots/01-swagger-register.jpg)
-- [Swagger login + JWT](docs/screenshots/02-swagger-login-token.jpg)
-- [Telegram LLM answer](docs/screenshots/03-telegram-llm-answer.jpg)
-- [RabbitMQ overview](docs/screenshots/04-rabbitmq-overview.jpg)
+### Swagger register
+
+![Swagger register](docs/screenshots/01-swagger-register.jpg)
+
+### Swagger login + JWT
+
+![Swagger login + JWT](docs/screenshots/02-swagger-login-token.jpg)
+
+### Telegram LLM answer
+
+![Telegram LLM answer](docs/screenshots/03-telegram-llm-answer.jpg)
+
+### RabbitMQ overview
+
+![RabbitMQ overview](docs/screenshots/04-rabbitmq-overview.jpg)
 
 ## Важные архитектурные решения
 
