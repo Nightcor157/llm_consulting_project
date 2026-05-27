@@ -192,4 +192,10 @@ uv run pytest -q
 
 ![RabbitMQ overview](docs/screenshots/04-rabbitmq-overview.jpg)
 
+### Auth Service tests
 
+![Auth Service tests](docs/screenshots/05-auth-service-tests.jpg)
+
+### Bot Service tests
+
+![Bot Service tests](docs/screenshots/06-bot-service-tests.jpg)

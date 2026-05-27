@@ -8,5 +8,5 @@
 4. Telegram: команда `/token <jwt>` и подтверждение сохранения токена.
 5. Telegram: обычный вопрос и ответ от LLM.
 6. RabbitMQ Management: активная Celery-очередь, сообщения, consumers/connections.
-7. Терминал: успешные тесты Auth Service.
-8. Терминал: успешные тесты Bot Service.
+7. Терминал: успешные тесты Auth Service (`docs/screenshots/05-auth-service-tests.jpg`).
+8. Терминал: успешные тесты Bot Service (`docs/screenshots/06-bot-service-tests.jpg`).
